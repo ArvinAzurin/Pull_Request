@@ -63,5 +63,18 @@ jekka.castspell(manacost:50)
 jekka.equip_weapon(equipedweapon:"lenovo keyboard")
 jekka.equip_armor(armor_name:"lenovo Armor",defense_points:10)
 jekka.takedamage(damage:30)
+print(" ")
+let clemente = gameCharacter(name:"Clemente Lise",gender:"Female",tier:5,hit_points:100,mana_points:100,weapon_specialty:"laptop",weapon:"")
+clemente.displayInfo()
+clemente.takedamage(damage:10)
+clemente.castspell(manacost:70)
+clemente.equip_weapon(equipedweapon:"Ryzen Laptop")
+print(" ")
+let timothy = gameCharacter(name:"Timothy Angway",gender:"male",tier:5,hit_points:100,mana_points:100,weapon_specialty:"pc",weapon:"")
+timothy.displayInfo()
+timothy.takedamage(damage:10)
+timothy.castspell(manacost:110)
+timothy.equip_weapon(equipedweapon:"Potato PC")
+
 
 
